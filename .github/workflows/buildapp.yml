@@ -1,6 +1,8 @@
 # Original idea by @ISnackable. Thanks to him for handling the hardest parts!
 # https://github.com/ISnackable/YTCubePlus/blob/main/.github/workflows/Build.yml
-
+env:
+  HOMEBREW_NO_REQUIRE_TAP_TRUST: 1
+  
 name: Build and Release uYouEnhanced
 
 on:
